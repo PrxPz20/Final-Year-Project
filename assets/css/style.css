@@ -1,0 +1,16 @@
+:root {
+
+    --page_main_color: #212529;
+    --navbar_main_color: #E32238; 
+
+
+}
+
+body {
+    background-color: var(--page_main_color);
+}
+
+
+#copy_right_text {
+    font-size: 15px;
+}
