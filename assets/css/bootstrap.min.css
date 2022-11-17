@@ -8742,6 +8742,13 @@ textarea.form-control-lg {
     background-color: rgba(227, 34, 56,var(--bs-bg-opacity))!important
 }
 
+.bg-dark-transp {
+
+    --bs-bg-opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4 )!important;
+    border-bottom: 1px solid rgb(228, 34, 55, 0.3);
+}
+
 .bg-black {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-black-rgb),var(--bs-bg-opacity))!important
