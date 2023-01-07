@@ -1,0 +1,46 @@
+:root {
+  --page_main_color: #212529;
+  --page_secondary_main_color: #e32238; 
+  --page_custom_blue_color: #1686c5;
+}
+
+.custom-web-button {
+  background-color: var(--page_secondary_main_color);
+  color: #FFFFFF;
+  border-width: 1px 1px 1px 1px;
+  border-radius: 90px 90px 90px 90px;
+  border-width: 1px 1px 1px 1px;
+  margin: 20px;
+  padding: 15px 50px;
+}
+
+.custom-web-button:hover {
+  color: var(--page_secondary_main_color);
+  background-color: var(--page_main_color);
+  transition: 0.5s;
+}
+
+
+.custom-input-field {
+  /* background-color: var(--page_main_color); */
+  color: #FFFFFF;
+  border-radius: 20px;
+  color: red;
+}
+
+.custom-input-checkbox-field {
+  text-align: left;
+  /* border: 2px solid pink; */
+}
+
+.custom-input-checkbox-field h3 {
+  color: var(--page_custom_blue_color);
+  font-size: 18px;
+}
+
+.custom-input-field:focus {
+  outline: none;
+  /* color: #FFFFFF; */
+  color: red;
+  background-color: var(--page_main_color);
+}

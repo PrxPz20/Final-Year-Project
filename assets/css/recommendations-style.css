@@ -1,0 +1,63 @@
+
+
+input[type=text], input[type=email], input[type=number] {
+    outline: none;
+    background-color: var(--page_main_color);
+    font-size: 20px;
+}
+
+input[type=text], input[type=email], input[type=number]:focus {
+    outline: none;
+}
+
+input[type=checkbox] {
+    outline: none;
+    content: none;
+    width: 15px;
+    height: 15px;
+    clip-path: circle(46% at 50% 50%);
+}
+
+input[type=checkbox]:focus {
+    font-size: 20px;
+}
+
+body {
+    /* background-image: linear-gradient(to bottom right,#1686c5, #212529); */
+}
+
+.form-wrapper {
+    /* border: 2px solid purple; */
+    /* background-color: gray; */
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.input-fields {
+    /* border: 2px solid purple; */
+    text-align: center;
+    /* color: red; */
+    width: 25rem;
+}
+
+.input-fields hr { color: var(--page_secondary_main_color); }
+
+.input-fields h2 { color: var(--page_custom_blue_color); }
+
+.ckeckbox-form-control { margin: 7px 5px; }
+
+.submit-button {
+    
+    border: none;
+    font-size: 18px;
+    width: 50%;
+}
+
+.submit-button:hover {
+    background-color: var(--page_custom_blue_color);
+    color: var(--page_main_color);
+    transition: 0.5s;
+}

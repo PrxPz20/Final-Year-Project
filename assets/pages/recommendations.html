@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/images/website_logo.png">
     <!-- CSS only -->
+
     <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/variables.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/recommendations-style.css">
+    
     <title>Final Project</title>
 </head>
 <body>
@@ -64,6 +68,83 @@
   <!-- MAIN BODY IMPLEMENTATION -->
   <main>
 
+    <div class="container">
+
+
+      <div class="form-wrapper">
+
+        <form id="form" novalidate>
+
+          <div id="input">
+
+            <!-- input-Fields -->
+            <div class="input-fields">
+              <h2>Enter your Information</h2>
+              <hr>
+
+              <div class="form-floating mb-4 mt-4">
+                <input type="text" id="first_name" class="form-control custom-input-field" placeholder="Please enter First Name" required>
+                <label for="name" class="form-label">First Name *</label>                
+              </div>
+
+              <div class="form-floating mb-4 mt-4">
+                <input type="text" id="last_name" class="form-control custom-input-field" placeholder="Please enter Last Name" required>
+                <label for="name" class="form-label">Last Name *</label>                
+              </div>
+
+              <div class="form-floating mb-4 mt-4">
+                <input type="text" id="company_name" class="form-control custom-input-field" placeholder="Please enter Company's Name">
+                <label for="company_name" class="form-label">Company's Name</label>                
+              </div>
+
+              <div class="form-floating mb-3 mt-3">
+                <input type="email" id="email" class="form-control custom-input-field" placeholder="Please enter Email Address" required>
+                <label for="email" class="form-label">Email *</label>               
+              </div>
+
+              <div class="form-floating mb-3 mt-3">
+                <input type="number" id="phone" class="form-control custom-input-field" placeholder="Please enter phone number" required>
+                <label for="phone" class="form-label">Phone *</label>                
+              </div>
+
+              <div class="custom-input-checkbox-field mb-3 mt-3" >
+                <h3>Select data to be published on cloud: *</h3>
+                <input type="checkbox" id="tax-id-checkbox" class="ckeckbox-form-control" name="TAX" value="TAX ID">
+                <label for="TAX">TAX ID</label> <br>
+                
+                <input type="checkbox" id="first-name-checkbox" class="ckeckbox-form-control" name="firstName" value="TAX ID">
+                <label for="firstName">First Name</label> <br>
+
+                <input type="checkbox" id="last-name-checkbox" class="ckeckbox-form-control" name="lastName" value="TAX ID">
+                <label for="lastName">Last Name</label> <br>
+
+                <input type="checkbox" id="date-of-birth-checkbox" class="ckeckbox-form-control" name="lastName" value="TAX ID">
+                <label for="lastName">Date of Birth</label> <br>
+
+                <input type="checkbox" id="home-Address-checkbox" class="ckeckbox-form-control" name="lastName" value="TAX ID">
+                <label for="lastName">Home address</label> <br>
+              </div>
+
+              <div class="form-floating mb-4 mt-4">
+                <input type="text" id="country" class="form-control custom-input-field" placeholder="Please enter Country" required>
+                <label for="country" class="form-label">Country *</label>                
+              </div>
+
+              <button id="recommendation-submit" class="submit-button custom-web-button" type="submit">Submit</button>
+
+            </div>
+            <!-- END input-fields -->
+
+          </div>
+
+        </form>
+        <!-- END form -->
+
+      </div>
+      <!-- END form-wrapper -->
+
+    </div>
+
   </main>
   <!-- End MAIN BODY -->
 
@@ -77,7 +158,7 @@
         
         <div class="col-4 d-flex justify-content-center gap-4" style="font-size: 14px;">
           <li class="list-inline-item"> <a class="nav-link text-white" href="#">Privacy</a> </li>
-          <li class="list-inline-item"> <a class="nav-link text-white" href="#">Terms</a> </li>
+          <li class="list-inline-item"> <a class="nav-link text-white" href="../Doc/Terms-Conditions-Agreement.pdf">Terms</a> </li>
         </div>
 
         <div class="col-4" style="font-size: 14px; height: auto; padding-top: 10px; padding-left: 50px; padding-right: 40px;">
